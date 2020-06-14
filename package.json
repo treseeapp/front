@@ -1,0 +1,40 @@
+{
+  "name": "tresee",
+  "version": "1.0.0-BETA",
+  "description": "A Quasar Framework app",
+  "productName": "tresee",
+  "cordovaId": "org.cordova.quasar.app",
+  "capacitorId": "",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@pderas/vue2-geocoder": "^1.1.0",
+    "@quasar/extras": "^1.0.0",
+    "alert-sound-notify": "0.0.7",
+    "aos": "^2.3.4",
+    "axios": "^0.18.1",
+    "chart.js": "^2.9.3",
+    "moment": "^2.24.0",
+    "quasar": "^1.0.0",
+    "recaptcha-v3": "^1.8.0",
+    "sockjs-client": "^1.4.0",
+    "v-emoji-picker": "^2.1.7",
+    "vue2-google-maps": "^0.10.7",
+    "webstomp-client": "^1.2.6"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.7.0"
+  },
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
